@@ -1,0 +1,44 @@
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></scirpt>
+   <link rel = "stylesheet" href="style.css" />
+   </script>
+  </head>
+
+  <body>
+    <h1>User Registration form</h1>
+
+   <input type="text" id="uname" placeholder="username" ma_validate="true" />
+    <br />
+
+   <input ype="text" id="pwd" placeholder="password" ma_validate="true" />
+    <br />
+
+   <input type="text" id="fname" placeholder="firstname" ma_validate="true" />
+    <br />
+
+   <input type="text" id="lname" placeholder="lastname" ma_validate="true" />
+    <br />
+
+   <input type="text" id="email" placeholder="email" ma_validate="true" />
+    <br />
+
+<div id="gen">
+       <br />
+  <input type="radio" id="male" ma_validate="true" value="male" name="gender" />male<br />
+    <input type="radio" id="female" ma_validate="true" value="female" name="gender" />female<br />
+</div>
+<br/>
+       <input type="text" id="location" placeholder="location" ma_validate="true" />
+    <br />
+    <br />
+    <input type="button" id="btn" value="SUBMIT FORM" class="btn btn-success" onclick="validate()" />
+    <p id="printTable"></p>
+  </body>
+
+</html>
